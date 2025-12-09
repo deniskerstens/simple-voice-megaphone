@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 public class Config {
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 
-    public static final ForgeConfigSpec.DoubleValue DISTANCE_MULTIPLIER = BUILDER.comment("Distance multiplier when using megaphone item").defineInRange("Megaphone distance multiplier", 2.0, Double.MIN_VALUE, Double.MAX_VALUE);
+    public static final ForgeConfigSpec.DoubleValue DISTANCE_MULTIPLIER = BUILDER.comment("Distance multiplier when using megaphone item").defineInRange("MegaphoneDistanceMultiplier", 2.0, 0.001, 10000);
 
     static final ForgeConfigSpec SPEC = BUILDER.build();
 

@@ -39,8 +39,6 @@ public class SimpleMegaphoneVoicechatPlugin implements VoicechatPlugin {
             return;
         }
         if (player.isUsingItem()) {
-            ItemStack heldItem = player.getItemInHand(InteractionHand.MAIN_HAND);
-
             if (player.getUseItem().is(ModItems.MEGAPHONE.get())) {
                 e.setDistance(e.getDistance()*Config.distanceMultiplier);
             }
