@@ -1,8 +1,6 @@
-package com.sluym1k.simple_megaphones;
+package com.sluym1k.simplemegaphone;
 
-import com.sluym1k.simple_megaphones.item.ModItems;
-import com.sluym1k.simple_megaphones.item.custom.Megaphone;
-import de.maxhenkel.voicechat.api.Player;
+import com.sluym1k.simplemegaphone.item.ModItems;
 import de.maxhenkel.voicechat.api.VoicechatApi;
 import de.maxhenkel.voicechat.api.events.EventRegistration;
 import de.maxhenkel.voicechat.api.events.VoiceDistanceEvent;
@@ -16,14 +14,14 @@ import de.maxhenkel.voicechat.api.ForgeVoicechatPlugin;
 import de.maxhenkel.voicechat.api.VoicechatPlugin;
 
 @ForgeVoicechatPlugin
-public class SimpleMegaphonesVoicechatPlugin implements VoicechatPlugin {
+public class SimpleMegaphoneVoicechatPlugin implements VoicechatPlugin {
 
-    public static final String PLUGIN_ID = "simple_megaphones";
+    public static final String PLUGIN_ID = "simplemegaphone";
     public static final Logger LOGGER = LogManager.getLogger(PLUGIN_ID);
 
     @Override
     public String getPluginId() {
-        return SimpleMegaphones.MODID;
+        return SimpleMegaphone.MODID;
     }
 
     @Override

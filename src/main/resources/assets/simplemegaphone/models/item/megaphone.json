@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "simple_megaphones:item/megaphone"
+    "layer0": "simplemegaphone:item/megaphone"
   },
   "display": {
     "firstperson_righthand": {

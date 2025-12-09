@@ -1,7 +1,7 @@
-package com.sluym1k.simple_megaphones.item;
+package com.sluym1k.simplemegaphone.item;
 
-import com.sluym1k.simple_megaphones.SimpleMegaphones;
-import com.sluym1k.simple_megaphones.item.custom.Megaphone;
+import com.sluym1k.simplemegaphone.SimpleMegaphone;
+import com.sluym1k.simplemegaphone.item.custom.Megaphone;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, SimpleMegaphones.MODID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, SimpleMegaphone.MODID);
 
     public static RegistryObject<Item> MEGAPHONE = ITEMS.register("megaphone",
             () -> new Megaphone(new Item.Properties()));

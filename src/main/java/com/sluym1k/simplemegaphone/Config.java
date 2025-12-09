@@ -1,4 +1,4 @@
-package com.sluym1k.simple_megaphones;
+package com.sluym1k.simplemegaphone;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@Mod.EventBusSubscriber(modid = SimpleMegaphones.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = SimpleMegaphone.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config {
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 

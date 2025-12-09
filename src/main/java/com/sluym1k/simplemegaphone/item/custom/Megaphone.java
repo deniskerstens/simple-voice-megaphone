@@ -1,4 +1,4 @@
-package com.sluym1k.simple_megaphones.item.custom;
+package com.sluym1k.simplemegaphone.item.custom;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
