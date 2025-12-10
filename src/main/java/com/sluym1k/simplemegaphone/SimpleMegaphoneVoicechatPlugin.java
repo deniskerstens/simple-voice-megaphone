@@ -65,7 +65,7 @@ public class SimpleMegaphoneVoicechatPlugin implements VoicechatPlugin {
     }
 
     public short[] distort(short[] audio) {
-        float gain = 10f;
+        float gain = 2.5f;
         short[] newAudio = new short[audio.length];
 
         for (int i = 0; i < audio.length; i++) {
@@ -76,9 +76,9 @@ public class SimpleMegaphoneVoicechatPlugin implements VoicechatPlugin {
             } else if (value < -32767.0f) {
                 value = -32767.0f;
             }
-            value = (short) (value / 2048);
-            LOGGER.info(value);
-            value *= 2048;
+//            value = (short) (value / 512);
+//            LOGGER.info(value);
+//            value *= 512;
             newAudio[i] = (short) value;
             LOGGER.info(value);
         }
