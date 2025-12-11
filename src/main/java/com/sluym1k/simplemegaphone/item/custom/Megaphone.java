@@ -21,6 +21,11 @@ public class Megaphone extends Item {
     }
 
     @Override
+    public int getMaxStackSize(ItemStack stack) {
+        return 1;
+    }
+
+    @Override
     public int getUseDuration(ItemStack stack) {
         return 72000;
     }
