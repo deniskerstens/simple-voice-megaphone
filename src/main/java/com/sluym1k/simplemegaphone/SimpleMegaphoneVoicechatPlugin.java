@@ -67,7 +67,7 @@ public class SimpleMegaphoneVoicechatPlugin implements VoicechatPlugin {
 
     float lastValue = 0;
     public short[] distort(short[] audio) {
-        float gain = 2.5f;
+        float gain = 25f;
         short[] newAudio = new short[audio.length];
 
         for (int i = 0; i < audio.length; i++) {
