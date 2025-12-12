@@ -40,7 +40,7 @@ public class SimpleMegaphoneVoicechatPlugin implements VoicechatPlugin {
     @Override
     public void registerEvents(EventRegistration registration) {
         registration.registerEvent(VoiceDistanceEvent.class, this::voiceDistance);
-//        registration.registerEvent(ClientSoundEvent.class, this::clientSound);
+        registration.registerEvent(ClientSoundEvent.class, this::clientSound);
     }
 
     public void voiceDistance(VoiceDistanceEvent e) {
