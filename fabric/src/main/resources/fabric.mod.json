@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "simplemegaphone",
+  "version": "${version}",
+  "name": "Simple Voice Megaphone",
+  "description": "A small mod, that adds megaphone item, that allows you to talk further when used",
+  "authors": [
+    "Sluym1k"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/simplemegaphone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sluym1k.fabric.SimpleMegaphoneFabric"
+    ],
+    "client": [
+      "com.sluym1k.fabric.client.SimpleMegaphoneFabricClient"
+    ],
+    "voicechat": [
+      "com.sluym1k.SimpleMegaphoneVoicechatPlugin"
+    ]
+  },
+  "mixins": [
+    "simplemegaphone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*",
+    "voicechat_api": ">=2.6.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
