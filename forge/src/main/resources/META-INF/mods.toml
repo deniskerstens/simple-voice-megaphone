@@ -6,7 +6,7 @@ license = "MIT"
 [[mods]]
 modId = "simplemegaphone"
 version = "${version}"
-displayName = "SimpleMegaphone"
+displayName = "Simple Voice Megaphone"
 authors = "Sluym1k"
 description = '''
 A small mod, that adds megaphone item, that allows you to talk further when used
