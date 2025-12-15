@@ -18,9 +18,4 @@ public class Config {
     static void onLoad(final ModConfigEvent event) {
          SimpleMegaphone.distanceMultiplier = DISTANCE_MULTIPLIER.get().floatValue();
     }
-
-    @SubscribeEvent
-    static void onReload(final ModConfigEvent.Reloading event) {
-        SimpleMegaphone.distanceMultiplier = DISTANCE_MULTIPLIER.get().floatValue();
-    }
 }
