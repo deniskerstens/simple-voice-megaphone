@@ -20,10 +20,10 @@ public class Megaphone extends Item {
         return InteractionResultHolder.consume(itemstack);
     }
 
-    @Override
-    public int getUseDuration(ItemStack stack) {
-        return 72000;
-    }
+//    @Override
+//    public int getUseDuration(ItemStack stack) {
+//        return 72000;
+//    }
 
     @Override
     public UseAnim getUseAnimation(ItemStack stack) {
