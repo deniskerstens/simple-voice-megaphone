@@ -29,10 +29,19 @@ repositories {
         name = 'NeoForged'
         url = 'https://maven.neoforged.net/releases'
     }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 dependencies {
     neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
+    implementation "de.maxhenkel.voicechat:voicechat-api:2.6.0"
+    runtimeOnly "maven.modrinth:simple-voice-chat:neoforge-1.21.1-2.6.7"
 
     // Architectury API. This is optional, and you can comment it out if you don't need it.
     modImplementation "dev.architectury:architectury-neoforge:$rootProject.architectury_api_version"
