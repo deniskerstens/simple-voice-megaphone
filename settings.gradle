@@ -7,8 +7,8 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'simplemegaphone'
+rootProject.name = 'example_mod'
 
 include 'common'
 include 'fabric'
-include 'forge'
+include 'neoforge'
