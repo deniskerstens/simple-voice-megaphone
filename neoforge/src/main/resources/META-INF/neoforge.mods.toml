@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/deniskerstens/simple-voice-megaphone/issues"
 license = "MIT"
 
 [[mods]]
@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Simple Voice Megaphone"
 authors = "Sluym1k"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A small mod, that adds megaphone item, that allows you to talk further when used
 '''
 #logoFile = ""
 
